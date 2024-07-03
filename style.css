@@ -1,0 +1,43 @@
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    object-position: top;
+    border: 1px solid #00000046;
+}
+.cards{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px ;
+    background-color: rgba(255, 0, 0, 0.13);
+}
+.cards p{
+    font-size: 14px;
+    font-weight: 500;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.stars i{
+    color: rgba(255, 0, 0, 0.719);
+    padding: 5px;
+}
+
+.carousel-indicators{
+    position: relative;
+    
+}
+.carousel-indicators [data-bs-target]{
+  background-color: red;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+}
+button i{
+    color: red;
+    font-size: 30px;
+}
